@@ -11,7 +11,7 @@ df['TimeSeenbyPhysician'] = pd.to_datetime(df['TimeSeenbyPhysician'])
 df['PrescriptionDate'] = pd.to_datetime(df['PrescriptionDate'])
 
 # Set the title at the top of the Streamlit app
-st.title('Opioid Crisis Analysis')
+st.title('Opioid Crisis Analysis by synapsehealthtech')
 
 # Sidebar options on the left side
 st.sidebar.title('Select Options')
